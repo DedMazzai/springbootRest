@@ -5,11 +5,11 @@ import ru.davydenko.spring.springbootrest.entity.Employee;
 import java.util.List;
 
 public interface EmployeeDAO {
-    public Employee getEmployee(int id);
+    Employee getEmployee(int id);
 
-    public List<Employee> getAllEmployees();
+    List<Employee> getAllEmployees();
 
-    public void saveEmployee(Employee employee);
+    void saveEmployee(Employee employee);
 
-    public void deleteEmployee(int id);
+    void deleteEmployee(int id);
 }
